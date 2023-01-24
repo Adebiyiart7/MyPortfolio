@@ -36,7 +36,7 @@ const AppContainer = ({ mediaQueries }) => {
           challenge: new Uint8Array([1, 2, 3, 4, 5]),
           // Use the rp property to specify the relying party
           rp: {
-            name: "My App"
+            name: "App NAme"
           },
           // Use the user property to specify the user account
           user: {
