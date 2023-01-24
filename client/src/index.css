@@ -1,0 +1,54 @@
+
+:root {
+  --appBackground: #d2eaf1;
+  --lightText: #676883;
+  --primaryBorder: #ccc;
+  --primaryColor: #d1771e;
+  --primaryText: #17181a;
+  --white: #fff;
+
+  --appFontFamily: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  /* background-color: var(--appBackground); */
+}
+
+a {
+  text-decoration: none;
+  color: #0b5e96;
+}
+
+a:hover {
+  color: var(--white);
+}
+
+#home {
+  background-image: url(./assets/img/landing_background.jpg);
+  background-position: right;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: var(--primaryColor);
+  border-radius: 50%;
+}
+/* #contact-me {
+  background-image: url(./assets/img/footer_background.jpg);
+  background-color: #17181a;
+  background-blend-mode: soft-light;
+} */
+
+@media screen and (max-width: 768px) {
+  #home {
+    background-position: initial;
+  }
+}
